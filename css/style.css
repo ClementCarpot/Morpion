@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../img/backgorund.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  margin: 2rem;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 5rem);
+  grid-template-rows: repeat(3, 5rem);
+  gap: 0.5rem;
+  margin: 3rem auto;
+}
+
+.case {
+  background-color: #ffffff;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: salmon;
+}
+
+h1 {
+  color: salmon;
+  font-size: 3rem;
+}
+
+p {
+  color: #ffffff;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+p.tourJoueur {
+  color: salmon;
+  font-weight: bold;
+}
+
+#score {
+  text-align: center;
+}
