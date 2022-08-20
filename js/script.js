@@ -125,3 +125,12 @@ function jouerCase(e) {
 cases.forEach((el) => {
   el.addEventListener("click", jouerCase);
 });
+
+// Définir la classe de l'élément ajouter sur la grille
+function CroixRond() {
+  if(document.input.valeur == "X") {
+    input.classe = "croix"
+  } else {
+    input.classe = "rond"
+  }
+}
